@@ -1,4 +1,26 @@
-{"public_name":"Carbon OPS","url":"https://github.com/alxhdd/","description":"FUllstack app using React Carbon UI for incident management","skip":false}
-{"public_name":"2","url":"https://github.com/alxhdd/","description":"Meow","skip":false}
-{"public_name":"3","url":"https://github.com/alxhdd/","description":"Meow Meow","skip":false}
-{"public_name":"4","url":"https://github.com/alxhdd/","description":"Aleksa stop meowing","skip":false}
+[
+  {
+    "public_name": "Carbon OPS",
+    "url": "https://github.com/alxhdd/",
+    "description": "Fullstack app using React Carbon UI for incident management",
+    "skip": false
+  },
+  {
+    "public_name": "2",
+    "url": "https://github.com/alxhdd/",
+    "description": "Meow",
+    "skip": false
+  },
+  {
+    "public_name": "3",
+    "url": "https://github.com/alxhdd/",
+    "description": "Meow Meow",
+    "skip": false
+  },
+  {
+    "public_name": "4",
+    "url": "https://github.com/alxhdd/",
+    "description": "Aleksa stop meowing",
+    "skip": false
+  }
+]
