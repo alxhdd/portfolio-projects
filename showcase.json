@@ -1,26 +1,8 @@
 [
   {
-    "public_name": "Carbon OPS",
-    "url": "https://github.com/alxhdd/",
-    "description": "Fullstack app using React Carbon UI for incident management",
-    "skip": false
-  },
-  {
-    "public_name": "2",
-    "url": "https://github.com/alxhdd/",
-    "description": "Meow",
-    "skip": false
-  },
-  {
-    "public_name": "3",
-    "url": "https://github.com/alxhdd/",
-    "description": "Meow Meow",
-    "skip": false
-  },
-  {
-    "public_name": "4",
-    "url": "https://github.com/alxhdd/",
-    "description": "Aleksa stop meowing",
-    "skip": false
+    "public_name": "AI personal wakeup",
+    "url": "https://github.com/alxhdd/hello-aleksa",
+    "description": "my biggest pain is waking up in the morning so this tool is my personal pain in the ass assistant that wakes me up everyday by calling me and yapping to me about the stuff I deemed important. or sth",
+    "skip": "false"
   }
 ]
