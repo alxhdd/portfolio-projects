@@ -1,21 +1,18 @@
 [
   {
-    "public_name": "AI wakeup assistant",
+    "public_name": "The Wakeup Caller",
     "url": "https://alxhdd.com",
-    "description": "My biggest pain is waking up in the morning so this tool extends Kisuke allowing him to call me in the morning and force me to wake up.",
+    "description": "It calls. It briefs. It will bother me until I prove I'm awake. It's integrated into Kisuke.",
     "skip": false,
     "card_type": "integration",
-    "kicker": "Definitely a pain in the ass...",
+    "kicker": "An alarm you actually can't ignore.",
     "tech": [
       "Python",
       "Bare Metal",
       "AWS"
     ],
     "detail_description": [
-      "I used to lose things constantly — good ideas, recipes I found, articles I meant to read, calls I had to make. Sticky notes, open tabs, texts to friends as human bookmarks. It worked until it didn't.",
-      "Kisuke solved it properly. He's a multimodel AI assistant that does everything — chat, task management, reminders, briefings, knowledge capture — without a single slash command. Drop anything in, no formatting required. He figures out what it is, where it goes, and when to bring it back. Ask for a dinner idea and he surfaces the recipe you sent him last week. Open your evening brief and that article you never had time to read is waiting. Two weeks after you mention your grandma's operation, he starts pinging you to call her. Schedule something without giving him enough to work with and he switches into pain-in-the-ass mode until you do.",
-      "The architecture exists to make all of that seamless: context compressed at model-specific thresholds, information routed to the right database by type, two-tier daily aggregation so nothing falls through the cracks. Before anything sensitive hits a cloud model, a sanitization layer strips it. Kisuke is useful precisely because he's invisible.",
-      "Built on a mixture of models, Celery, Redis, PostgreSQL, and Docker. Local routing layer coming next."
+      "Every morning it calls me. Not a sound — an actual phone call. It pulls the fresh morning brief Kisuke has ready, reads it out over TTS, somwhere along the line generates a random number sequence I have to type back to prove I'm awake. By the time we are done that, I'm at least semi awake and I already know what matters today."
     ],
     "links": [
       {
@@ -38,9 +35,10 @@
     "tech": [
       "Python",
       "FastAPI",
-      "Next.js",
-      "Bare Metal",
-      "OpenAI"
+      "Celery",
+      "Redis",
+      "SQLite",
+      "Docker"
     ],
     "detail_description": [
       "I used to lose things constantly — good ideas, recipes I found, articles I meant to read, calls I had to make. Sticky notes, open tabs, texts to friends as human bookmarks. It worked until it didn't.",
@@ -60,22 +58,22 @@
     ]
   },
   {
-    "public_name": "My Personal Portfolio",
+    "public_name": "The Portfolio That Maintains Itself",
     "url": "https://alxhdd.com",
-    "description": "Portfolio automated to the brim, built with Next.js, Tailwind and Framer Motion.",
+    "description": "Static site. Zero manual updates. Fully automated from repo to deployment.",
     "skip": false,
     "card_type": "standard",
-    "kicker": "Second brain. Personal assistant. Occasional pain in the ass.",
+    "kicker": "Because manually updating a portfolio is exactly the kind of boring stuff worth automating.",
     "tech": [
       "Next.js",
       "React",
       "AWS"
     ],
     "detail_description": [
-      "I used to lose things constantly — good ideas, recipes I found, articles I meant to read, calls I had to make. Sticky notes, open tabs, texts to friends as human bookmarks. It worked until it didn't.",
-      "Kisuke solved it properly. He's a multimodel AI assistant that does everything — chat, task management, reminders, briefings, knowledge capture — without a single slash command. Drop anything in, no formatting required. He figures out what it is, where it goes, and when to bring it back. Ask for a dinner idea and he surfaces the recipe you sent him last week. Open your evening brief and that article you never had time to read is waiting. Two weeks after you mention your grandma's operation, he starts pinging you to call her. Schedule something without giving him enough to work with and he switches into pain-in-the-ass mode until you do.",
-      "The architecture exists to make all of that seamless: context compressed at model-specific thresholds, information routed to the right database by type, two-tier daily aggregation so nothing falls through the cracks. Before anything sensitive hits a cloud model, a sanitization layer strips it. Kisuke is useful precisely because he's invisible.",
-      "Built on a mixture of models, Celery, Redis, PostgreSQL, and Docker. Local routing layer coming next."
+      "GitHub Actions parse project metadata from repo files. Medium's RSS feeds article data in automatically.",
+      "A daily CI/CD job triggers full rebuilds — and so does every git push. The entire stack is stateless and declarative: no database, no manual updates, just automated pulls and static generation.",
+      "Deployed on AWS using S3 + CloudFront + Lambda, staying within free tier limits. Even the contact form runs through Lambda — no backend server, just functions doing exactly what's needed and nothing more.",
+      "You're looking at the output."
     ],
     "links": [
       {
