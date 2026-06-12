@@ -117,7 +117,7 @@
     "url": "https://kisukeproject.pl",
     "description": "Kisuke Shop is where my AI assistant shows his work — stats, achievements, skills, memory, and a running record of how he actually helps me.",
     "skip": false,
-    "card_type": "standard",
+    "card_type": "integration",
     "kicker": "Frontend for Kisuke AI",
     "tech": [
       "React",
