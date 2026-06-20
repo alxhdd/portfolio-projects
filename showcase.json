@@ -110,7 +110,12 @@
       "Deployed on AWS using S3 + CloudFront + Lambda, staying within free tier limits. Even the contact form runs through Lambda — no backend server, just functions doing exactly what's needed and nothing more.",
       "You're looking at the output."
     ],
-    "links": []
+    "links": [
+      {
+        "label": "case study",
+        "url": "https://medium.com/@alxhdd/how-i-accidentally-made-my-github-evergreen-e7560f1f8c8b"
+      }
+    ]
   },
   {
     "public_name": "Kisuke Shop",
