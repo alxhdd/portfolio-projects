@@ -93,6 +93,31 @@
     ]
   },
   {
+    "public_name": "Kisuke Vector Engine",
+    "url": "https://kisukeproject.pl",
+    "description": "An ultra-lightweight, high-performance in-memory vector search engine written in modern C++ with native Python bindings via pybind11.",
+    "skip": false,
+    "card_type": "integration",
+    "kicker": "Why spin up a heavy Docker daemon for a vector DB when 80 lines of C++ can search my notes in microseconds?",
+    "tech": [
+      "C++20",
+      "Pybind11",
+      "Python",
+      "SQLite",
+      "NumPy"
+    ],
+    "detail_description": [
+      "Architected explicitly to handle semantic context retrieval and similarity matching for local knowledge bases (such as Obsidian vaults) without the resource overhead of heavy, daemon-based vector databases.",
+      "This engine utilizes zero-copy memory mapping to scan high-dimensional dense vectors at hardware speed, exposing a clean, deterministic API directly to Python pipelines."
+    ],
+    "links": [
+      {
+        "label": "Kisuke AI",
+        "url": "https://kisukeproject.pl"
+      }
+    ]
+  },
+  {
     "public_name": "The Portfolio That Maintains Itself",
     "url": "https://alxhdd.com",
     "description": "Static site. Zero manual updates. Fully automated from repo to deployment.",
