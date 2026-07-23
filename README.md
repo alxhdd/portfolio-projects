@@ -9,6 +9,8 @@ This repository is part of my [portfolio](https://alxhdd.com) automation system.
 
 - **[CrowdShift - AI audience intelligence platform.](https://crowdshift.online)** — An AI audience-intelligence platform that gives speakers a living brief of who's in the room — from ticket #1 to showtime. Attendees can submit pre-talk questions. Speakers can reach back (organizer-gated). Organizers and sponsors get role-filtered views.
 
+- **[FIP Tracker — a free tool for tracking a cat through FIP](https://fiptracker.com)** — A free, self-hostable web app that helps caregivers track a cat through feline infectious peritonitis — weight, temperature, appetite, symptoms and bloodwork turned into trend charts, shareable with a vet or a partner. Built during my own cat's FIP scare.
+
 - **[KISUKE](https://kisukeproject.pl)** — A multimodel AI assistant built on Celery, Redis, and async queues — no slash commands, no babysitting. Drop anything in and he figures out what it is, where it goes, and when to bring it back. He manages his own context, routes information to the right database by type, and runs daily aggregation so nothing falls through the cracks. Before anything sensitive hits a cloud model, a sanitization layer strips it first. Second brain. Personal assistant. Occasional pain in the ass.
 
 - **[Kisuke Vector Engine](https://kisukeproject.pl)** — An ultra-lightweight, high-performance in-memory vector search engine written in modern C++ with native Python bindings via pybind11.
