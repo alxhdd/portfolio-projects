@@ -130,6 +130,38 @@
     ]
   },
   {
+    "public_name": "OP-Coach",
+    "url": "https://github.com/alxhdd/op-coach-app",
+    "description": "A One Piece TCG deck builder and AI trainer. Build your crew, practise against meta decks, and improve with evidence-backed turn coaching.",
+    "skip": false,
+    "card_type": "standard",
+    "kicker": "Pick your crew. Learn your matchups. Understand your decisions.",
+    "tech": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "PostgreSQL",
+      "Prisma"
+    ],
+    "detail_description": [
+      "Build and version decks from a real card catalogue, choose alternate artwork, and inspect deck legality, colour compatibility, cost distribution, and counters.",
+      "Practise against AI opponents using a curated library of meta decks. A deterministic game engine validates and resolves actions, while the AI chooses moves using only the information available to its side.",
+      "Get turn-by-turn coaching during play or after the game. RAG over official rules, card rulings, and curated community strategy guides grounds advice in sources you can inspect.",
+      "Explore opponent and coaching workflows in a React Flow execution graph, including retrieved evidence, action validation, timing, token usage, and errors. Built with Next.js, TypeScript, PostgreSQL, Prisma, and pgvector; currently in development."
+    ],
+    "links": [
+      {
+        "label": "source code",
+        "url": "https://github.com/alxhdd/op-coach-app"
+      },
+      {
+        "label": "engine investigation",
+        "url": "https://github.com/alxhdd/op-coach-app/pull/16"
+      }
+    ]
+  },
+  {
     "public_name": "The Portfolio That Maintains Itself",
     "url": "https://alxhdd.com",
     "description": "Static site. Zero manual updates. Fully automated from repo to deployment.",

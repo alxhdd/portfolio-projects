@@ -13,6 +13,8 @@ This repository is part of my [portfolio](https://alxhdd.com) automation system.
 
 - **[Kisuke Vector Engine](https://kisukeproject.pl)** — An ultra-lightweight, high-performance in-memory vector search engine written in modern C++ with native Python bindings via pybind11.
 
+- **[OP-Coach](https://github.com/alxhdd/op-coach-app)** — A One Piece TCG deck builder and AI trainer. Build your crew, practise against meta decks, and improve with evidence-backed turn coaching.
+
 - **[The Portfolio That Maintains Itself](https://alxhdd.com)** — Static site. Zero manual updates. Fully automated from repo to deployment.
 
 
